@@ -80,6 +80,8 @@ puts "With a starting point of: #{start_point}"
 puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
 
 start_point = start_point / 10
+puts "With a starting point of: #{start_point}"
+puts "We'd have #{beans} beans, #{jars} jars, and #{crates} crates."
 
 sentence = "All good things come to those who wait."
 words = Ex25.break_words(sentence)
